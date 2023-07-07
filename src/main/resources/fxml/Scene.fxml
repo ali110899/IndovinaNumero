@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.TextArea?>
@@ -44,6 +45,7 @@
                   <Button fx:id="btnPRova" mnemonicParsing="false" onAction="#doProva" text="Prova" GridPane.rowIndex="3" />
                   <TextField fx:id="txtProva" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <ProgressBar fx:id="barTentativi" prefWidth="200.0" progress="0.0" GridPane.rowIndex="2" />
+                  <ComboBox fx:id="comboDifficolta" prefWidth="150.0" GridPane.rowIndex="1" />
                </children>
             </GridPane>
             <TextArea fx:id="txtRisultato" editable="false" prefHeight="200.0" prefWidth="200.0" />
